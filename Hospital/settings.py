@@ -159,3 +159,4 @@ EMAIL_HOST_PASSWORD = 'vmihpqvkhmtsconx'  # Your email password or app password
 
 # For development (console)
 # EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+ALLOWED_HOSTS = ['*', '.up.railway.app', 'localhost', '127.0.0.1']
